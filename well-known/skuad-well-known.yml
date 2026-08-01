@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of /.well-known/* on Skuad web + API hosts
+note: >-
+  No /.well-known/ discovery documents were found. skuad.io redirects .well-known
+  paths to www.skuad.io which returns 404; api.skuad.io (host exists) returns 404
+  for all probed paths; docs.skuad.io returns HTTP 525 (no reachable origin).
+  Recorded for auditability; no WellKnown/SecurityTxt pointer is wired because
+  nothing resolved.
+hosts:
+- host: www.skuad.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+- host: api.skuad.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404

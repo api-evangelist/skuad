@@ -1,7 +1,28 @@
 aid: skuad
 name: Skuad
-description: Skuad is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Skuad is a global HR and employment platform (now part of Payoneer as Payoneer
+  Workforce Management) that lets companies hire, onboard, pay, and manage full-time
+  employees and contractors across 160+ countries without setting up local legal
+  entities. It provides employer-of-record (EOR) services, international payroll in
+  70+ currencies, contractor management and payments, benefits administration,
+  background verification, and built-in compliance with local employment, tax, and
+  labor laws. Skuad was surfaced as a portfolio company of Anthemis and added to the
+  API Evangelist network; this profile has been enriched from Skuad's public web
+  presence. No public developer API, OpenAPI specification, or developer portal was
+  found during enrichment.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/663a4b85a1b7569ce537a239/67177e6650b937f6823cccda_Thumbnail%20Image%20for%20website.avif
 url: https://raw.githubusercontent.com/api-evangelist/skuad/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Human Resources
+- Employer of Record
+- Global Payroll
+- Contractor Management
+- Compliance
+- Workforce Management
+- HR Tech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/skuad-domain-security.yml
+- type: Website
+  url: https://www.skuad.io
+- type: Pricing
+  url: https://www.skuad.io/pricing
+- type: Blog
+  url: https://www.skuad.io/blog
+- type: Support
+  url: https://www.skuad.io/help-center
+- type: PrivacyPolicy
+  url: https://www.skuad.io/privacy
+- type: TermsOfService
+  url: https://www.skuad.io/terms-conditions
+- type: Login
+  url: https://auth.skuad.io/pay
+- type: SignUp
+  url: https://www.skuad.io/demo
+- type: LLMsTxt
+  url: llms/skuad-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
