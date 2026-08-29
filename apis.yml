@@ -11,6 +11,17 @@ description: >-
   API Evangelist network; this profile has been enriched from Skuad's public web
   presence. No public developer API, OpenAPI specification, or developer portal was
   found during enrichment.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
